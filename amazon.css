@@ -1,0 +1,132 @@
+/* Skip to main content
+Google Classroom
+Classroom
+Python Programming B6
+B6 Boys
+Assignment details
+Amazon Clone
+Talha Malik
+•
+30 Jul
+10 points
+Due 27 Jul
+Class comments
+Your work
+Handed in
+
+Amazon index.css
+Style Sheet
+
+Amazon index.html
+HTML
+Private comments */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #EAEDED;
+    /* background-image: -moz-element(align-items); */
+}
+
+.header {
+    background-color: #232F3E;
+    padding: 10px 20px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.search-bar {
+    display: flex;
+    flex: 1;
+    margin: 0 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #febd69;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.header-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.navbar {
+    background-color: #37475A;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hero {
+    margin: 20px 0;
+    text-align: center;
+    /* width: 750px; */
+    /* height: 750px; */
+}
+
+.hero img {
+    width: 100%;
+    max-width: 1500px;
+    height: auto;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #232F3E;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+Amazon index.css
+Zoomed out of item.
